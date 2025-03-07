@@ -1,4 +1,6 @@
 import React from "react";
+import Logo from "../assets/images/logo.webp";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -18,15 +20,15 @@ const Header = () => {
             aria-label="Navigation Menu"
           >
             <i
-              className="fa-regular fa-bars-sort text-xl text-white"
+              className="fa-solid fa-bars-sort text-xl text-white"
               aria-hidden="true"
             ></i>
           </button>
           <div className="flex flex-1 items-center justify-center lg:block lg:flex-none">
             <a href="/" className="inline-block">
-              <img
-                src="https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/4ab7c0ca-adfa-49ec-8bed-28ca58a5fa00/publicContain"
-                alt="Business Logo"
+              <Image
+                src={Logo}
+                alt="Nivank"
                 className="h-24 w-auto object-contain dont-replace"
               />
             </a>
@@ -52,7 +54,7 @@ const Header = () => {
                   >
                     <span>Our Offerings</span>
                     <i
-                      className="fa-regular fa-chevron-down ml-1 transition-['rotate'] lg:group-hover:rotate-[180deg]"
+                      className="fa-solid fa-chevron-down ml-1 transition-['rotate'] lg:group-hover:rotate-[180deg]"
                       aria-hidden="true"
                     ></i>
                   </button>
@@ -90,7 +92,7 @@ const Header = () => {
                   >
                     <span className="">Customer Insights</span>
                     <i
-                      className="fa-regular fa-chevron-down ml-1 transition-['rotate'] lg:group-hover:rotate-[180deg]"
+                      className="fa-solid fa-chevron-down ml-1 transition-['rotate'] lg:group-hover:rotate-[180deg]"
                       aria-hidden="true"
                     ></i>
                   </button>
@@ -129,7 +131,7 @@ const Header = () => {
                 <span>Request a Quote</span>
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--primary-color)]">
                   <i
-                    className="fa-regular fa-arrow-up-right text-lg text-[var(--light-text-color)]"
+                    className="fa-solid fa-arrow-up rotate-45 text-lg text-[var(--light-text-color)]"
                     aria-hidden="true"
                   ></i>
                 </span>
