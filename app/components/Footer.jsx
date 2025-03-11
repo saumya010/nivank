@@ -32,7 +32,7 @@ const Footer = () => {
                 >
                   <span className="block w-6">
                     <i
-                      className="fa-regular fa-phone text-lg"
+                      className="fa-solid fa-phone text-lg"
                       aria-hidden="true"
                     ></i>
                   </span>
@@ -46,7 +46,7 @@ const Footer = () => {
                 >
                   <span className="block w-6">
                     <i
-                      className="fa-regular fa-envelope text-lg"
+                      className="fa-solid fa-envelope text-lg"
                       aria-hidden="true"
                     ></i>
                   </span>
@@ -60,7 +60,7 @@ const Footer = () => {
                 >
                   <span className="block w-6">
                     <i
-                      className="fa-regular fa-location-dot text-lg"
+                      className="fa-solid fa-location-dot text-lg"
                       aria-hidden="true"
                     ></i>
                   </span>
