@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Offering from "./components/Offering";
 import Transform from "./components/Transform";
 import Why from "./components/Why";
+import Location from "./components/Location";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <Gallery />
     <Why />
     <FAQ />
+    <Location />
     <Footer />
     </>
   );
