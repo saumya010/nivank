@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Offering from "./components/Offering";
 import Transform from "./components/Transform";
+import Why from "./components/Why";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <Offering />
     <Discover />
     <Gallery />
+    <Why />
     <Footer />
     </>
   );
