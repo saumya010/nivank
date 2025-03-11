@@ -9,6 +9,7 @@ import Offering from "./components/Offering";
 import Transform from "./components/Transform";
 import Why from "./components/Why";
 import Location from "./components/Location";
+import Connect from "./components/Connect";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
     <Why />
     <FAQ />
     <Location />
+    <Connect />
     <Footer />
     </>
   );
