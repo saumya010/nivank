@@ -32,3 +32,8 @@
   --secondary-button-hover-bg-color: #FFD5C0;
   --secondary-button-hover-text-color: #f36f2c;
 }
+
+/* Hero section background */
+.hero-bg {
+  background-image: url('./assets/images/hero-bg.webp');
+}
